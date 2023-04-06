@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mestres Pokemon</title>
+	<link rel="stylesheet" type="text/css" href="beauty.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Cadastro de Pokemons</h1>
+		<form>
+			<label for="nome-pokemon">Nome do Pokemon:</label>
+			<input type="text" id="nome-pokemon" name="nome-pokemon">
+			<label for="data-captura">Data de captura:</label>
+			<input type="date" id="data-captura" name="data-captura">
+			<label for="pokebolas">Usou quantas pokebolas nele?</label>
+			<input type="number" id="pokebolas" name="pokebolas">
+			<label for="tipo">Tipo:</label>
+			<select id="tipo" name="tipo">
+				<option value="normal">Normal</option>
+				<option value="fogo">Fogo</option>
+				<option value="agua">Água</option>
+				<option value="ar">Ar</option>
+				<option value="planta">Planta</option>
+				<option value="eletrico">Elétrico</option>
+				<option value="gelo">Gelo</option>
+			</select>
+			<label for="informacao">Informações adicionais:</label>
+			<textarea id="informacao" name="informacao"></textarea>
+			<button type="submit">Cadastrar Pokemon</button>
+		</form>
+	</div>
+</body>
+</html>
